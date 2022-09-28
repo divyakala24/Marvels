@@ -61,6 +61,11 @@ body{
 
   }
 
+  .card:hover {
+    background-color: red;
+    color:white;
+  }
+
 p{
     color:white;
     text-align: center;
@@ -82,4 +87,9 @@ p{
 
 .card:hover img{
     transform: scale(1.1);
+}
+
+.para {
+    color:gray;
+    margin-top: 60px;
 }

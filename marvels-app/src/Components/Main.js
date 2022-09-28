@@ -28,11 +28,9 @@ charData()
     </div>
     <div className="container">
         <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {
+            (!item)? <p>No data found</p> : <Card data={item} />
+        }
     </div>
     </>
   )
