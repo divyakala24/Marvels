@@ -2,7 +2,15 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div>Card</div>
+   <>
+   <div className="card">
+    <img src="./images/hulk.jpg" alt="hulk" />
+    <div className="title">
+        <h3>Hulk</h3>
+        <h4>Jff Hagees</h4>
+    </div>
+   </div>
+   </>
   )
 }
 
